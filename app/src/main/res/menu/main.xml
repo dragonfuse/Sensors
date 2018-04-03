@@ -1,0 +1,11 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Sensors="http://schemas.android.com/apk/res-auto" >
+    tools:context="com.frangoudes.sensors.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        Sensors:showAsAction="ifRoom"  />
+</menu>
